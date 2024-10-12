@@ -9,7 +9,7 @@ import { Property } from '../models/property.model';
     providedIn: 'root',
 })
 export class PropertyService {
-    private apiUrl = 'http://localhost:5000/api/properties';
+    private apiUrl = 'https://realestate-be-g34x.onrender.com/api/properties';
 
     constructor(private http: HttpClient) { }
 
